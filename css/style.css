@@ -12,12 +12,13 @@
 
     /*========== Font and typography ==========*/
     --inter-bold-font: "Inter-Bold", sans-serif;
+    --mr_alex-font: "MrAlex", serif;
     --mr_alexbold-font: "mr_alexbold", serif;
     --heebo_regular-font: "Heebo-Regular", sans-serif;
     --heebo_bold-font: "Heebo-Regular_Bold", sans-serif;
     --big-font-size: 5.625rem;
     --medium-font-size: 3.125rem;
-    --hero-font-size: 2.25rem;
+    --hero-font-size: 4.25rem;
     --normal-font-size: 1rem;
     --small-font-size: .813rem;
     --xsmall-font-size: .75rem;
@@ -54,7 +55,7 @@
 }
 
 body {
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -93,12 +94,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
 }
 
-h1{font-size: 5.625rem;}
-h2{font-size: 3.125rem;}
-h3{font-size: 2.5em;}
-h4{font-size: 2em;}
-h5{font-size: 1.5em;}
-h6{font-size: 1em;}
+
 p{font-size: 1.125rem}
 
 img {
@@ -241,21 +237,21 @@ img {
     flex-wrap: wrap;
 }
 
-.home-list {
+.banner-list {
     margin-right: 10px;
     border-right: 2px solid var(--white-color);
     padding-right: 10px;
     margin-bottom: 10px;
 }
 
-.home-list:last-child {
+.banner-list:last-child {
     margin-right: 0;
     border-right: 0;
     padding-right: 0;
 }
 
 .hero-heading {
-    font-family: var(--heebo_bold-font);
+    font-family: var(--mr_alex-font);
     font-size: var(--hero-font-size);
     line-height: 1;
     text-align: center;
@@ -559,7 +555,9 @@ img {
     }
 
     .hero-heading {
-        font-size: var(--hero-font-size);
+        font-family: var(--mr_alex-font);
+        line-height: 1;
+        margin: 9px 0 36px;
     }
 
     .hero-btn {
@@ -723,6 +721,8 @@ img {
     .hero-heading {
         font-size: var(--medium-font-size);
         text-align: start;
+        padding: .5rem 0 2.5rem 0;
+        width: 50%;
     }
 
     .hero-btn {
@@ -873,6 +873,8 @@ img {
     .hero-heading {
         text-align: start;
         font-size: var(--medium-font-size);
+        padding: .5rem 0 2.5rem 0;
+        width: 50%;
     }
 
     .hero-btn {
