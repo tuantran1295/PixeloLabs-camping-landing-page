@@ -84,7 +84,7 @@ a {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    background-color: var(--body-color);
+    background-color: var(--text-color);
 }
 
 .btn.border-btn {
@@ -232,6 +232,7 @@ img {
     margin-bottom: 2rem;
     text-align: center;
     line-height: 1.5rem;
+    font-weight: 400;
 }
 
 .btn-text {
@@ -584,11 +585,37 @@ img {
 
 /* Extra Small Screen */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .banner-text-mobile {
+        font-size: 0.65rem !important;
+    }
 
+    .hero-heading-mobile {
+        font-size: 3rem !important;
+    }
+
+    .bright-green-text-mobile {
+        color: var(--body-color) !important;
+    }
+
+    .sector-heading-mobile {
+        display: block !important;
+        font-size: 2.4rem !important;
+    }
+
+    .hidden-mobile {
+        display: none !important;
+    }
+
+    .sector-heading {
+        font-size: 2.4rem !important;
+    }
 }
 
 /* Small Screen */
 @media only screen and (max-width: 768px) {
+    .text-align-center-sm {
+        text-align: center !important;
+    }
 
     .hero-img {
         background: url(../images/hero-image-sm.png) no-repeat center center fixed;
@@ -671,7 +698,6 @@ img {
     /* Slider */
     .adventure-carousel {
         margin-top: 1.25rem;
-        padding-left: 1.875rem;
     }
 
     /* Discover */
