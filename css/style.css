@@ -83,6 +83,12 @@ a {
     transition: color 0.35s ease, border 0.35s ease, background-color 0.35s ease;
 }
 
+.container{
+    width: 100%;
+    max-width: 83.75rem;
+    margin: 0 auto;
+}
+
 ol,ul {
     list-style: none;
 }
@@ -365,7 +371,7 @@ img {
 
 /* Access Tool */
 .box-white{
-    width: 40.765%;
+    width: 47%;
     background-color: #fff;
     padding: 67px 75px 464px 59px;
     color: var(--text-color);
@@ -470,9 +476,8 @@ img {
 
 /* Media Query */
 
-/* Extra Small Mobile Screen */
-
-@media (max-width: 768px) {
+/* Small Screen */
+@media only screen and (max-width: 768px) {
 
     .hero-img {
         background: url(../images/hero-image-sm.png) no-repeat center center fixed;
@@ -650,8 +655,7 @@ img {
 
 
 /* Tab Screen */
-
-@media (min-width: 769px) and (max-width: 1440px) {
+@media only screen and (min-width: 769px) and (max-width: 1440px) {
 
     .hero-img {
         width: 100%;
@@ -759,7 +763,7 @@ img {
 
     /*!* Ticket *!*/
     .tickets-container {
-        padding: 4rem 0 4rem;
+        padding: 4rem 0 15rem;
     }
 
     .ticket-img .img-md {
@@ -793,6 +797,10 @@ img {
     }
 
     /* Access Tool */
+    .tools-resources .container {
+        padding: 0 3rem 0;
+    }
+
     .box-white{
         padding-bottom: 320px;
     }
@@ -840,8 +848,7 @@ img {
 }
 
 /* Extra Large Screen */
-
-@media (min-width: 1441px) {
+@media only screen and (min-width: 1441px) {
     /* Header Ribbon */
     .header-ribbon {
         padding: 0 20.625rem;
@@ -942,7 +949,7 @@ img {
 
     /* Ticket */
     .tickets-container {
-        padding: 4rem 0 4rem;
+        padding: 4rem 0 15rem;
     }
 
     .ticket-img .img-md {
@@ -976,6 +983,10 @@ img {
     }
 
     /* Access Tool */
+    .tools-resources .container {
+        padding: 0 3rem 0;
+    }
+
     .box-white {
         width: 48%;
         padding: 67px 35px 400px 35px;
