@@ -1,3 +1,4 @@
+
 /* Medium Screen */
 @media only screen and (min-width: 769px) and (max-width: 1440px) {
 
@@ -79,11 +80,11 @@
     }
 
     .discover-info {
-        width: 50%;
+        width: 60%;
         padding: 3.75rem calc(6%);
         position: absolute;
         top: -14px;
-        left: calc(25%);
+        left: calc(20%);
         opacity: 0.8;
         border-bottom: 0.5rem solid var(--border-color);
     }
@@ -147,11 +148,15 @@
         padding: 0 3rem 0;
     }
 
-    .box-white{
-        padding-bottom: 55px;
+    .box-white {
+        padding-bottom: 20px;
     }
 
     .hidden-wide-screen {
+        display: none;
+    }
+
+    .sector-heading-mobile {
         display: none;
     }
 

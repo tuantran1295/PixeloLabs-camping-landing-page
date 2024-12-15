@@ -31,16 +31,23 @@ $(document).ready(function() {
 
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '.icon-splide', {
-        perPage    : 8,
+        perPage    : 2,
         arrows: false,
         type: 'loop',
         pagination: false,
+        cover: true,
         breakpoints: {
-            1024: {
+            320: {
+                perPage: 3,
+            },
+            786: {
+                perPage: 4,
+            },
+            980: {
                 perPage: 5,
             },
-            640: {
-                perPage: 3,
+            1440: {
+                perPage: 8,
             },
         },
     } ).mount();
@@ -64,8 +71,9 @@ document.addEventListener( 'DOMContentLoaded', function () {
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '#footer-carousel', {
         perPage: 2,
+        pagination:false,
         breakpoints: {
-            380: {
+            320: {
                 perPage: 2,
             },
             786: {

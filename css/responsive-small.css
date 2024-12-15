@@ -1,5 +1,9 @@
+
 /* Small Screen */
 @media only screen and (max-width: 768px) {
+    .text-align-center-sm {
+        text-align: center !important;
+    }
 
     .hero-img {
         background: url(../images/hero-image-sm.png) no-repeat center center fixed;
@@ -66,6 +70,7 @@
         justify-content: center;
         font-size: var(--xsmall-font-size);
         letter-spacing: 1.13px;
+        text-transform: uppercase;
     }
 
     .hero-heading {
@@ -81,7 +86,6 @@
     /* Slider */
     .adventure-carousel {
         margin-top: 1.25rem;
-        padding-left: 1.875rem;
     }
 
     /* Discover */
@@ -182,4 +186,11 @@
         padding: 1.25rem 2rem;
     }
 
+    .sector-heading-mobile {
+        display: none;
+    }
+
+    .align-center-sm {
+        text-align: center !important;
+    }
 }

@@ -1,3 +1,4 @@
+
 /* Extra Large Screen */
 @media only screen and (min-width: 1441px) {
     /* Header Ribbon */
@@ -41,7 +42,7 @@
 
     .hero-heading {
         text-align: start;
-        font-size: var(--medium-font-size);
+        font-size: var(--big-font-size);
         padding: .5rem 0 2.5rem 0;
         width: 50%;
     }
