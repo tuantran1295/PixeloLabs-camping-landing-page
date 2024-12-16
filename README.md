@@ -23,6 +23,7 @@
 * Media queries responsive design
 * CSS pseudo class
 * CSS variables
+* SEO optimization
 * SCSS, LESS, SASS
 
 ### Requirement

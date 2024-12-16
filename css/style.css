@@ -375,7 +375,7 @@ img {
 /* Adventure Info */
 
 .info {
-    background: url(../images/group-6.png) no-repeat center center fixed;
+    background: url(../images/camp-background.png) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -623,7 +623,7 @@ img {
     }
 
     .hero-img {
-        background: url(../images/hero-image-sm.png) no-repeat center center fixed;
+        background: url(../images/camping-forest-img-sm.png) no-repeat center center fixed;
         width: 100%;
         height: fit-content;
         background-size: cover;
@@ -818,7 +818,7 @@ img {
     .hero-img {
         width: 100%;
         height: fit-content;
-        background: url(../images/bitmap-22.png) no-repeat center center fixed;
+        background: url(../images/camping-forest-img-wide.png) no-repeat center center fixed;
         background-size: cover;
     }
 
