@@ -1,6 +1,6 @@
 
 /* Extra Small Screen */
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
     .banner-text-mobile {
         font-size: 0.65rem !important;
     }
@@ -62,10 +62,32 @@
         color: var(--white-color-half-opacity);
         font-weight: 100;
     }
+
+    .full-width-img {
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 @media only screen and (min-width: 481px){
     .hidden-md {
         display: none !important;
     }
+
+/*    .footer-menu-header {*/
+/*        font-family: "Heebo", sans-serif;*/
+/*        font-size: 0.813rem;*/
+/*        letter-spacing: 1.08px;*/
+/*        color: var(--white-color);*/
+/*        text-transform: uppercase;*/
+/*    }*/
+
+/*    .sub-content {*/
+/*        font-family: "Heebo", sans-serif;*/
+/*        font-size: 0.813rem;*/
+/*        letter-spacing: 1.08px;*/
+/*        color: var(--white-color-half-opacity);*/
+/*        padding-top: 1rem;*/
+/*        line-height: 2;*/
+/*    }*/
 }

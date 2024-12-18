@@ -518,7 +518,8 @@ img {
     background-color: var(--ribbon-color);
     color: var(--white-color);
     border-radius: 2rem;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
+    margin-bottom: 3rem;
 }
 
 
