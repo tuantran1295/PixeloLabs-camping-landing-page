@@ -57,6 +57,10 @@
         margin-bottom: 1.2rem;
     }
 
+    .form-submit {
+        margin-bottom: 3rem;
+    }
+
     .copyright {
         font-size: 0.65rem;
         color: var(--white-color-half-opacity);
