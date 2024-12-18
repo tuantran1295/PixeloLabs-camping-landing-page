@@ -496,6 +496,7 @@ img {
     line-height: 1;
     color: var(--white-color);
     margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .footer-form form{
@@ -520,25 +521,42 @@ img {
     margin-top: 1rem;
 }
 
-.footer-accordian {
-    margin-top: 3rem;
-    color: var(--white-color);
-    font-family: var(--inter-bold-font);
-    font-size: 1.5rem;
-}
 
-.accordian-content {
-    height: 5rem;
-    padding-top: 1.5rem;
-    border-top: 0.125rem solid var(--white-color);
+.footer-accordian {
+    order: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .sub-content {
-    display: none;
+    display: block;
+    font-size: var(--normal-font-size);
+}
+
+.sub-content li {
+    height: 3rem;
+}
+
+.sub-content li:first-child {
+    margin-top: 1rem;
+}
+
+.accordian-content {
+    border-top: 0;
 }
 
 .accordian-content:last-child {
-    border-bottom: 0.125rem solid var(--white-color);
+    border-bottom: 0;
+}
+
+.footer-menu-header {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.accordian-expend {
+    font-weight: 300;
+    font-size: 2rem;
 }
 
 .copyright {

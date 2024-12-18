@@ -182,9 +182,9 @@
         padding-bottom: 20px;
     }
 
-    .gallery-container .img-cta-box {
-        padding: 1.25rem 2rem;
-    }
+    /*.gallery-container .img-cta-box {*/
+    /*    padding: 1.25rem 2rem;*/
+    /*}*/
 
     .sector-heading-mobile {
         display: none;

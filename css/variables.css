@@ -6,6 +6,7 @@
     --ribbon-color: hsl(154, 77%, 31%);
     --text-color: hsl(138, 80%, 12%);
     --white-color: hsl(0, 0%, 100%);
+    --white-color-half-opacity: rgba(255, 255, 255, .5);
     --body-color: hsla(154, 77%, 31%, 0.8);
     --box-shadow: hsla(210, 55%, 24%, .1);
     --border-color: hsl(51, 75%, 58%);
