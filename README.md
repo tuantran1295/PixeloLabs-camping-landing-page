@@ -16,7 +16,7 @@
 ## Introduction
 ### Description
 * Developing a responsive landing page for multiple devices
-* A personal project for applying at Pixelolabs
+* A personal project for applying at 
 
 ### Techniques
 
