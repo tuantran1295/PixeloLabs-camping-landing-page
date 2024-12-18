@@ -119,6 +119,10 @@ img {
     gap: 30px;
 }
 
+.gap-60 {
+    gap: 60px;
+}
+
 .text-align-left {
     text-align: left !important;
 }
@@ -147,6 +151,7 @@ img {
 .hero-btn,
 .adventure-btn,
 .discovery-btn,
+.links,
 .form-submit {
     cursor: pointer;
 }
@@ -255,7 +260,7 @@ img {
 .nav-list:before,
 .nav-list:after {
     content: '';
-    width: 535px;
+    width: 545px;
     height: 1.5px;
     background-color: #fff;
     position: absolute;
@@ -263,11 +268,11 @@ img {
 }
 
 .nav-list:before {
-    right: 0;
+    right: 60px;
 }
 
 .nav-list:after {
-    left: 0;
+    left: 60px;
 }
 
 .nav-link .nav-icon {
@@ -288,6 +293,41 @@ img {
 
 .navbar-close {
     display: none;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+    /*background-color: #e6e6e6;*/
+    display: inline-table;
+    left: 2rem;
+}
+
+.search {
+    position: relative;
+    width: 24px;
+    margin: 0 auto;
+    /*padding: 14px 0;*/
+    text-align: center;
+}
+.search_circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--white-color);
+    border-radius: 100px;
+}
+
+.search_rectangle {
+    position: absolute;
+    right: 1px;
+    bottom: -2px;
+    width: 12px;
+    transform: rotate(45deg);
+    border: 1px solid var(--white-color);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 /* Home */

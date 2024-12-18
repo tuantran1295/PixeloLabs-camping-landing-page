@@ -10,7 +10,7 @@ $(document).ready(function() {
         $(".nav-list").toggleClass("display-none");
 
         // Use slideDown() to smoothly show the element
-        $(".nav-list").slideDown(400, function() {
+        $(".nav-list").slideDown(200, function() {
             $("#nav-toggle").toggleClass("display-none"); // Toggle the toggle button
             $("#nav-close").toggleClass("display-none"); // Toggle the close button
         });
@@ -19,7 +19,7 @@ $(document).ready(function() {
     // Hide the nav-list and close button when the navbar-close is clicked
     $("#nav-close").click(function() {
         // Use slideUp() to smoothly hide the element
-        $(".nav-list").slideUp(400, function() {
+        $(".nav-list").slideUp(200, function() {
             $("#nav-toggle").toggleClass("display-none"); // Toggle the toggle button
             $("#nav-close").toggleClass("display-none"); // Toggle the close button
         });
@@ -31,23 +31,16 @@ $(document).ready(function() {
 
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '.icon-splide', {
-        perPage    : 2,
+        perPage    : 8,
         arrows: false,
         type: 'loop',
         pagination: false,
-        cover: true,
         breakpoints: {
-            320: {
-                perPage: 3,
-            },
-            786: {
-                perPage: 4,
-            },
-            980: {
+            1024: {
                 perPage: 5,
             },
-            1440: {
-                perPage: 8,
+            640: {
+                perPage: 3,
             },
         },
     } ).mount();
