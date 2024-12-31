@@ -287,6 +287,27 @@ img {
     margin-left: 15px;
 }
 
+.subnav{
+    display: none;
+    position: absolute;
+    background-color: var(--ribbon-color);
+    min-width: 11rem;
+    bottom: 10px;
+    transform: translateY(100%);
+    z-index: 1;
+}
+
+.has-subnav:hover .subnav{display: block;}
+
+.subnav li {
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--white-color);
+}
+
+.subnav li:last-child {
+    border: 0;
+}
+
 .navbar-toggle {
     display: none;
 }
