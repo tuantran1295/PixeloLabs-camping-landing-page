@@ -94,6 +94,17 @@ img {
     height: auto;
 }
 
+.hover-img{
+    overflow: hidden;
+}
+
+.hover-img:hover img {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 .img-sm,
 .img-md,
 .img-lg {
