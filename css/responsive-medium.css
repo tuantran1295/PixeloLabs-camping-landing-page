@@ -153,6 +153,10 @@
         padding-bottom: 20px;
     }
 
+    .explore .sector-heading-mobile {
+        display: none;
+    }
+
     .hidden-wide-screen {
         display: none;
     }

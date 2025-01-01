@@ -148,12 +148,26 @@ img {
     margin-bottom: 2rem;
 }
 
+.white-boxes .upper-heading,
+.white-boxes .sector-heading,
+.white-boxes .sector-paragraph {
+    text-align: left !important;
+}
+
 .text-align-left {
     text-align: left !important;
 }
 
+.white-boxes .sector-paragraph {
+    font-weight: 400 !important;
+}
+
 .font-weight-400 {
     font-weight: 400 !important;
+}
+
+.white-boxes .sector-paragraph {
+    line-height: 1.5rem;
 }
 
 .line-higher {
@@ -411,6 +425,7 @@ img {
 }
 
 /* Adventure Info */
+/* collection */
 
 /*delete*/
 .info {
@@ -426,6 +441,12 @@ img {
 .collection {
     padding: 3.68rem 1rem;
 }
+
+.collection .upper-heading,
+.collection .sector-heading {
+    color: var(--text-color);
+}
+
 
 .adventure-subheading {
     color: var(--text-color);

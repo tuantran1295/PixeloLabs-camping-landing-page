@@ -9,6 +9,14 @@
         font-size: 3rem !important;
     }
 
+    .collection .sector-heading {
+        color: var(--body-color) !important;
+    }
+
+    .explore .sector-heading {
+        display: none !important;
+    }
+
     .bright-green-text-mobile {
         color: var(--body-color) !important;
     }
