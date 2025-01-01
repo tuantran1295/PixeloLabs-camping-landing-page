@@ -73,8 +73,6 @@ a {
 
 .container{
     width: 100%;
-    max-width: 83.75rem;
-    margin: 0 auto;
 }
 
 ol,ul {
@@ -425,7 +423,7 @@ img {
     padding: 3.68rem 1rem;
 }
 
-.adventure-content {
+.collection {
     padding: 3.68rem 1rem;
 }
 
