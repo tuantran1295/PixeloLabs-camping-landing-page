@@ -155,6 +155,9 @@ img {
     position: relative;
     top: 35px;
     left: 0;
+    color: var(--white-color);
+    background: url(../images/camp-background.png) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .flex-container {
@@ -412,12 +415,18 @@ img {
 
 /* Adventure Info */
 
+/*delete*/
 .info {
     background: url(../images/camp-background.png) no-repeat center center fixed;
     background-size: cover;
 }
 
+/*delete*/
 .adventure-container {
+    padding: 3.68rem 1rem;
+}
+
+.adventure-content {
     padding: 3.68rem 1rem;
 }
 
