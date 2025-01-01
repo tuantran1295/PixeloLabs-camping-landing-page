@@ -34,6 +34,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         autoplay: true,
         pagination: false,
         type: "loop",
+        // gap: "3rem",
         arrows: false,
         mediaQuery: 'max',
         breakpoints: {

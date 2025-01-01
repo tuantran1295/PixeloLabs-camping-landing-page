@@ -143,6 +143,18 @@
         border-right: 0.5rem solid var(--border-color);
     }
 
+    .splide__arrow{
+        background: none !important;
+    }
+
+    .splide__arrow--prev {
+        left: -2rem;
+    }
+
+    .splide__arrow--next {
+        right: -2rem;
+    }
+
     /* Access Tool */
     .tools-resources .container {
         padding: 0 3rem 0;

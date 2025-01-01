@@ -15,4 +15,12 @@
         left: 10%;
     }
 
+    .splide__arrow--prev {
+        left: -3rem;
+    }
+
+    .splide__arrow--next {
+        right: -3rem;
+    }
+
 }

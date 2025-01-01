@@ -123,6 +123,10 @@ img {
     gap: 60px;
 }
 
+.mg-bottom-2rem {
+    margin-bottom: 2rem;
+}
+
 .text-align-left {
     text-align: left !important;
 }
@@ -448,10 +452,6 @@ img {
     bottom: -1.5rem;
 }
 
-.splide__arrows {
-    display: none;
-}
-
 .splide__slide {
     width: fit-content !important;
 }
@@ -463,6 +463,13 @@ img {
 .splide__slide img {
     width: 7rem;
     height: auto;
+}
+
+.arrow-container{
+
+}
+.arrow-container-holder{
+
 }
 
 /* discover */
