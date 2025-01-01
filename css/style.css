@@ -114,6 +114,18 @@ img {
 
 /* Reusable CSS Classes */
 
+.flex {
+    display: flex;
+}
+
+.flex-row-reverse{flex-direction: row-reverse;}
+
+.justify-content-center{justify-content: center;}
+
+.align-items-center{align-items: center;}
+
+.justify-content-space-between{justify-content: space-between;}
+
 .display-none {
     display: none !important;
 }
@@ -166,9 +178,6 @@ img {
     justify-content: space-between;
 }
 
-.hero-btn,
-.adventure-btn,
-.discovery-btn,
 .links,
 .form-submit {
     cursor: pointer;
@@ -403,16 +412,6 @@ img {
     padding: 2.5rem 0;
 }
 
-.hero-btn {
-    min-width: 15.375rem;
-    height: 2.8125rem;
-    padding: 0.875rem 5.5rem 0.75rem;
-    font-family: var(--inter-bold-font);
-    text-align: center;
-    border-radius: 1.4rem;
-    border: solid 1.5px var(--white-color);
-}
-
 /* Adventure Info */
 
 /*delete*/
@@ -449,18 +448,6 @@ img {
     text-align: center;
 }
 
-.adventure-btn {
-    max-width: 18rem;
-    min-width: 15.375rem;
-    height: 2.8125rem;
-    margin: 4rem auto 0;
-    font-family: var(--heebo_regular-font);
-    background-color: var(--text-color);
-    color: var(--white-color);
-    text-align: center;
-    padding: 14px 0;
-    border-radius: 20px;
-}
 
 /* slider */
 
@@ -472,9 +459,6 @@ img {
     bottom: -1.5rem;
 }
 
-.splide__slide {
-    width: fit-content !important;
-}
 
 .mg-left-6rem {
     margin-left: 6rem;
@@ -512,13 +496,6 @@ img {
 
 .discover-heading {
     font-family: var(--heebo_bold-font);
-}
-
-.discovery-btn {
-    font-family: var(--inter-bold-font);
-    padding: 1rem 0;
-    border-bottom: 1px solid var(--white-color);
-    margin: 0 auto;
 }
 
 /* Access Tool */

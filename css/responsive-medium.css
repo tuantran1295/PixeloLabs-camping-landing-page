@@ -54,12 +54,6 @@
         width: 50%;
     }
 
-    .hero-btn {
-        width: 15.375rem;
-        text-align: center;
-        padding: 0.875rem 2.5rem 0.75rem;
-    }
-
     /* Discover */
     .img-sm {
         display: none;
@@ -102,10 +96,6 @@
     .discover-heading {
         font-size: 2.2rem;
         margin-bottom: 1rem;
-    }
-
-    .discovery-btn {
-        width: 10.75rem;
     }
 
     /*!* Ticket *!*/
