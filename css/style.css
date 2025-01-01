@@ -608,6 +608,11 @@ img {
     margin-top: 1rem;
 }
 
+.sub-content li:hover {
+    opacity: 1;
+    color: var(--white-color);
+}
+
 .accordian-content {
     border-top: 0;
 }
