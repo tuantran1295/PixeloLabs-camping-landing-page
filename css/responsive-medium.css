@@ -2,10 +2,9 @@
 /* Medium Screen */
 @media only screen and (min-width: 769px) {
 
-    .hero-img {
-        width: 100%;
-        height: fit-content;
+    .hero-banner {
         background: url(../images/camping-forest-img-wide.png) no-repeat center center fixed;
+        height: fit-content;
         background-size: cover;
     }
 
@@ -37,7 +36,7 @@
         display: none;
     }
 
-    .home-heading {
+    .banner-content {
         padding: 15.3125rem 8.75rem 15.31rem;
     }
 
