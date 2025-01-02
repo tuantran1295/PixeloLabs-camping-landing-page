@@ -518,7 +518,7 @@ img {
 }
 
 /* Access Tool */
-.tools-resources {
+.white-boxes {
     position: relative;
 }
 
@@ -553,11 +553,11 @@ img {
 }
 
 
-.gallery-container .cta-content > * {
+.tools-resources .cta-content > * {
     color: var(--white-color);
 }
 
-.gallery-container .cta-content h3 {
+.tools-resources .cta-content h3 {
     text-transform: uppercase;
     line-height: 1;
     margin-bottom: 22px;

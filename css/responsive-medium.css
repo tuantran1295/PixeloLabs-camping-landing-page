@@ -64,7 +64,7 @@
         height: 48rem;
     }
 
-    .discover-content {
+    .explore {
         position: relative;
     }
 
@@ -98,19 +98,16 @@
     }
 
     /*!* Ticket *!*/
-    .tickets-container {
+    .tickets {
         padding: 4rem 0 15rem;
+        position: relative;
+        width: 100%;
+        height: 30.43rem;
+        margin: 6rem 0 18rem;
     }
 
     .ticket-img .img-md {
         padding: 0;
-    }
-
-    .ticket-content {
-        position: relative;
-        width: 100%;
-        height: 30.43rem;
-        margin: 3rem 0 3rem;
     }
 
     .ticket-img-carousel {
@@ -145,7 +142,7 @@
     }
 
     /* Access Tool */
-    .tools-resources .container {
+    .white-boxes .container {
         padding: 0 3rem 0;
     }
 

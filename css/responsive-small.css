@@ -7,6 +7,11 @@
         text-align: center !important;
     }
 
+    .white-boxes {
+        margin: 6rem 1rem 0
+    }
+
+
     .text-align-center-sm {
         text-align: center !important;
     }
@@ -123,7 +128,7 @@
         position: relative;
     }
 
-    .tickets-container {
+    .tickets {
         padding-top: 4rem;
     }
 
@@ -169,23 +174,19 @@
         position: static;
     }
 
-    /*Gallery*/
+    /*tools-resources*/
 
-    .gallery-container .flex-container {
+    .tools-resources .flex-container {
         flex-wrap: wrap;
         gap: 0;
     }
 
-    .gallery-container .img-wrapper {
+    .tools-resources .img-wrapper {
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 20px;
         width: 100%;
     }
-
-    /*.gallery-container .img-cta-box {*/
-    /*    padding: 1.25rem 2rem;*/
-    /*}*/
 
     .sector-heading-mobile {
         display: none;
