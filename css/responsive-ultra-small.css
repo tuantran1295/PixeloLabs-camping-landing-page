@@ -1,5 +1,16 @@
 
 /* Extra Small Screen */
+@media only screen and (max-width: 480px) {
+    .mg-left-splice {
+        margin-left: 3rem;
+    }
+
+    .splide__slide img {
+        width: calc(50%);
+        height: auto;
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .banner-text-mobile {
         font-size: 0.65rem !important;

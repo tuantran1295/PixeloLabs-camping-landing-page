@@ -479,12 +479,12 @@ img {
 }
 
 
-.mg-left-6rem {
-    margin-left: 6rem;
+.mg-left-splice {
+    margin-left: 3rem;
 }
 
 .splide__slide img {
-    width: calc(50%);
+    width: 6rem;
     height: auto;
 }
 
