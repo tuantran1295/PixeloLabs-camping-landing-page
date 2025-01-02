@@ -484,7 +484,7 @@ img {
 }
 
 .splide__slide img {
-    width: 7rem;
+    width: calc(50%);
     height: auto;
 }
 
