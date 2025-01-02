@@ -475,9 +475,8 @@ img {
 }
 
 .splide__pagination {
-    bottom: -1.5rem;
+    bottom: -6rem;
 }
-
 
 .mg-left-splice {
     margin-left: 3rem;
@@ -502,6 +501,16 @@ img {
     color: var(--white-color);
     text-align: center;
 }
+
+.discover-info .splide__pagination__page{
+    width: 30px;
+    height: 1px;
+    margin: 3px 0 0 5px;
+    background: var(--border-color);
+    border-radius: 0;
+    transform: none;
+}
+.discover-info .splide__pagination__page.is-active{height: 4px;background: var(--border-color);transform: none;}
 
 .discover-subheading {
     font-family: var(--inter-bold-font);
