@@ -23,4 +23,7 @@
         right: -3rem;
     }
 
+    .discover-info {
+        padding: 3.75rem calc(16%);
+    }
 }
