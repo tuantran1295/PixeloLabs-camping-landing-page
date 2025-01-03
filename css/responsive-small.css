@@ -196,4 +196,8 @@
     .align-center-sm {
         text-align: center !important;
     }
+
+    .footer-container {
+        margin-top: 2rem;
+    }
 }

@@ -1,27 +1,33 @@
 $(document).ready(function() {
     // Navbar Menu dropdown
-
+    const closeBtn = $("#nav-close");
+    const navList =  $(".nav-list");
+    const navToggle = $("#nav-toggle");
+    let showMenu = false;
     // Initial setup - hide the nav-list
-    $("#nav-close").addClass("display-none");
-    $(".nav-list").addClass("display-none");
+    closeBtn.addClass("display-none");
+    navList.addClass("display-none");
 
     // Toggle the nav-list and show the close button when the navbar-toggle is clicked
-    $("#nav-toggle").click(function() {
-        $(".nav-list").toggleClass("display-none");
+    navToggle.click(function() {
+        showMenu = true;
+        navList.removeClass("display-none");
 
         // Use slideDown() to smoothly show the element
-        $(".nav-list").slideDown(200, function() {
-            $("#nav-toggle").toggleClass("display-none"); // Toggle the toggle button
-            $("#nav-close").toggleClass("display-none"); // Toggle the close button
+        navList.slideDown(200, function() {
+            navToggle.addClass("display-none"); // Toggle the toggle button
+            closeBtn.removeClass("display-none"); // Toggle the close button
         });
     });
 
     // Hide the nav-list and close button when the navbar-close is clicked
-    $("#nav-close").click(function() {
+    closeBtn.click(function() {
+        showMenu = false;
+        navList.addClass("display-none")
         // Use slideUp() to smoothly hide the element
-        $(".nav-list").slideUp(200, function() {
-            $("#nav-toggle").toggleClass("display-none"); // Toggle the toggle button
-            $("#nav-close").toggleClass("display-none"); // Toggle the close button
+        navList.slideUp(200, function() {
+            navToggle.removeClass("display-none"); // Toggle the toggle button
+            closeBtn.addClass("display-none"); // Toggle the close button
         });
     });
 });
