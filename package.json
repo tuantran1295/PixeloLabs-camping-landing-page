@@ -1,0 +1,24 @@
+{
+  "name": "pixelolabs-camping-landing-page",
+  "version": "1.0.0",
+  "description": "<!-- PROJECT LOGO --> <br /> <div align=\"center\">   <a href=\"https://github.com/othneildrew/Best-README-Template\">     <img src=\"images/logo/pixelolabs_logo.jpeg\" alt=\"Logo\" width=\"80\" height=\"80\">   </a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --watch scss/variables.scss:css/variables.css scss/style.scss:css/style.css scss/responsive-medium.scss:css/responsive-medium.css scss/responsive-small.scss:css/responsive-small.css scss/responsive-ultra-small.scss:css/responsive-ultra-small.css scss/responsive-wide.scss:css/responsive-wide.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuantran1295/PixeloLabs-camping-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuantran1295/PixeloLabs-camping-landing-page/issues"
+  },
+  "homepage": "https://github.com/tuantran1295/PixeloLabs-camping-landing-page#readme",
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}
