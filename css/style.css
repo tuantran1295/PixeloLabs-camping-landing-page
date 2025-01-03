@@ -148,9 +148,9 @@ img {
     margin-bottom: 2rem;
 }
 
-.white-boxes .upper-heading,
-.white-boxes .sector-heading,
-.white-boxes .sector-paragraph {
+#white-boxes .upper-heading,
+#white-boxes .sector-heading,
+#white-boxes .sector-paragraph {
     text-align: left !important;
 }
 
@@ -158,7 +158,7 @@ img {
     text-align: left !important;
 }
 
-.white-boxes .sector-paragraph {
+#white-boxes .sector-paragraph {
     font-weight: 400 !important;
 }
 
@@ -166,7 +166,7 @@ img {
     font-weight: 400 !important;
 }
 
-.white-boxes .sector-paragraph {
+#white-boxes .sector-paragraph {
     line-height: 1.5rem;
 }
 
@@ -438,12 +438,12 @@ img {
     padding: 3.68rem 1rem;
 }
 
-.collection {
+#collection {
     padding: 3.68rem 1rem;
 }
 
-.collection .upper-heading,
-.collection .sector-heading {
+#collection .upper-heading,
+#collection .sector-heading {
     color: var(--text-color);
 }
 
@@ -527,7 +527,7 @@ img {
 }
 
 /* Access Tool */
-.white-boxes {
+#white-boxes {
     position: relative;
 }
 
@@ -562,11 +562,11 @@ img {
 }
 
 
-.tools-resources .cta-content > * {
+#tools-resources .cta-content > * {
     color: var(--white-color);
 }
 
-.tools-resources .cta-content h3 {
+#tools-resources .cta-content h3 {
     text-transform: uppercase;
     line-height: 1;
     margin-bottom: 22px;

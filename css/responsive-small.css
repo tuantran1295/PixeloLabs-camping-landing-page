@@ -1,13 +1,13 @@
 
 /* Small Screen */
 @media only screen and (max-width: 768px) {
-    .white-boxes .upper-heading,
-    .white-boxes .sector-heading,
-    .white-boxes .sector-paragraph {
+    #white-boxes .upper-heading,
+    #white-boxes .sector-heading,
+    #white-boxes .sector-paragraph {
         text-align: center !important;
     }
 
-    .white-boxes {
+    #white-boxes {
         margin: 6rem 1rem 0
     }
 
@@ -16,7 +16,7 @@
         text-align: center !important;
     }
 
-    .hero-banner {
+    #forest-banner {
         background: url(../images/camping-forest-img-sm.png) no-repeat center center fixed;
         width: 100%;
         height: fit-content;
@@ -129,7 +129,7 @@
         position: relative;
     }
 
-    .tickets {
+    #tickets {
         padding-top: 4rem;
     }
 
@@ -177,12 +177,12 @@
 
     /*tools-resources*/
 
-    .tools-resources .flex-container {
+    #tools-resources .flex-container {
         flex-wrap: wrap;
         gap: 0;
     }
 
-    .tools-resources .img-wrapper {
+    #tools-resources .img-wrapper {
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 20px;

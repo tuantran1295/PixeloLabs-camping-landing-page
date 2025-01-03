@@ -2,7 +2,7 @@
 /* Medium Screen */
 @media only screen and (min-width: 769px) {
 
-    .hero-banner {
+    #forest-banner {
         background: url(../images/camping-forest-img-wide.png) no-repeat center center fixed;
         height: fit-content;
         background-size: cover;
@@ -64,7 +64,7 @@
         height: 48rem;
     }
 
-    .explore {
+    #explore {
         position: relative;
     }
 
@@ -98,7 +98,7 @@
     }
 
     /*!* Ticket *!*/
-    .tickets {
+    #tickets {
         padding: 4rem 0 15rem;
         position: relative;
         width: 100%;
@@ -142,7 +142,7 @@
     }
 
     /* Access Tool */
-    .white-boxes .container {
+    #white-boxes {
         padding: 0 3rem 0;
     }
 
@@ -150,7 +150,7 @@
         padding-bottom: 20px;
     }
 
-    .explore .sector-heading-mobile {
+    #explore .sector-heading-mobile {
         display: none;
     }
 

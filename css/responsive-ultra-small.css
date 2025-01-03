@@ -20,11 +20,11 @@
         font-size: 3rem !important;
     }
 
-    .collection .sector-heading {
+    #collection .sector-heading {
         color: var(--body-color) !important;
     }
 
-    .explore .sector-heading {
+    #explore .sector-heading {
         display: none !important;
     }
 
@@ -32,7 +32,7 @@
         color: var(--body-color) !important;
     }
 
-    .white-boxes {
+    #white-boxes {
         margin: 6rem 1rem 0
     }
 

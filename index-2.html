@@ -3,7 +3,8 @@
 <head>
   	<meta charset="utf-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<title>Camping Landing Page</title>
+  	<title>Camping Service Landing Page</title>
+	<script type="application/ld+json"> { "@context": "http://schema.org", "@type": "LocalBusiness", "name": "Adventure Camping Services", "description": "Experience the great outdoors with our top-rated camping services. We provide guided tours, equipment rental, and more.", "url": "https://www.adventurecamping.com", "logo": "https://www.adventurecamping.com/images/logo.png", "image": [ "https://www.adventurecamping.com/images/camp1.jpg", "https://www.adventurecamping.com/images/camp2.jpg" ], "address": { "@type": "PostalAddress", "streetAddress": "123 Wilderness Trail", "addressLocality": "Mountain Town", "addressRegion": "MT", "postalCode": "12345", "addressCountry": "US" }, "geo": { "@type": "GeoCoordinates", "latitude": "45.12345", "longitude": "-110.12345" }, "contactPoint": { "@type": "ContactPoint", "telephone": "+1-800-555-1234", "contactType": "Customer Service", "areaServed": "US", "availableLanguage": ["English", "Spanish"] }, "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "203" }, "review": [ { "@type": "Review", "author": { "@type": "Person", "name": "Jane Doe" }, "datePublished": "2024-01-15", "reviewRating": { "@type": "Rating", "ratingValue": "5" }, "description": "The camping experience was amazing! The guides were knowledgeable and the scenery was breathtaking." }, { "@type": "Review", "author": { "@type": "Person", "name": "John Smith" }, "datePublished": "2024-02-20", "reviewRating": { "@type": "Rating", "ratingValue": "4" }, "description": "Great service and well-organized tours. Would definitely recommend." } ], "offers": { "@type": "Offer", "url": "https://www.adventurecamping.com/special-offers", "priceCurrency": "USD", "price": "99.99", "priceValidUntil": "2025-12-31", "itemOffered": { "@type": "Service", "name": "Weekend Camping Package", "description": "Enjoy a weekend camping adventure with all equipment included." } } }</script>
 	<meta name="description" content="A camping landing page for advertise the camping service">
 	<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
 
@@ -86,7 +87,7 @@
 	<!-- Main Content-->
 	<main class="main">
 
-		<section class="hero-banner container">
+		<section id="forest-banner" class="container">
 			<div class="banner-content">
 				<ul class="hero-subheading">
 				<li class="banner-list">Lorem</li>
@@ -106,13 +107,13 @@
 			</div>
 		</section>
 
-		<section class="collection container">
+		<section id="collection" class="container">
 
 			<p class="upper-heading">Inspiration For Your Next Adventure!</p>
 			<h2 class="sector-heading">Camping & Day Use</h2>
 
 			<!-- Slider -->
-			<div class="adventure-carousel mg-bottom-2rem">
+			<div class="adventure-carousel">
 				<div id="icon-carousel" class="icon-splide splide" aria-label="Carousel Images">
 					<div class="splide__track">
 						<ul class="splide__list">
@@ -145,7 +146,7 @@
 		</section>
 
 		<!--discover-->
-		<section class="explore container">
+		<section id="explore" class="container">
 
 			<div class="discover-img">
 				<img class="img-sm" src="images/adventure.png" alt="discover background"/>
@@ -164,7 +165,7 @@
 
 		</section>
 
-		<section class="tickets container">
+		<section id="tickets" class="container">
 			<div class="ticket-img-carousel">
 				<div class="ticket-img">
 					<img class="img-sm" src="images/ticket-sm.png" alt="ticket image"/>
@@ -234,7 +235,7 @@
 
 		</section>
 
-		<section class="white-boxes">
+		<section id="white-boxes">
 			<div class="container">
 				<div class="flex-container">
 					<div class="box-white">
@@ -262,7 +263,7 @@
 			</div>
 		</section>
 
-		<section class="tools-resources container">
+		<section id="tools-resources" class="container">
 			<div class="gallery-container">
 				<div class="flex-container gap-20">
 					<div class="img-wrapper hover-img">
