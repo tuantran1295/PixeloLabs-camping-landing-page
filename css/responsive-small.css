@@ -1,203 +1,177 @@
-
 /* Small Screen */
+/* Navbar */
+/* Home */
+/*Hero Banner*/
+/* Slider */
+/* Discover */
+/* Discovery */
+/* Ticket */
+/* Access Tool */
+/*tools-resources*/
 @media only screen and (max-width: 768px) {
-    #white-boxes .upper-heading,
-    #white-boxes .sector-heading,
-    #white-boxes .sector-paragraph {
-        text-align: center !important;
-    }
-
-    #white-boxes {
-        margin: 6rem 1rem 0
-    }
-
-
-    .text-align-center-sm {
-        text-align: center !important;
-    }
-
-    #forest-banner {
-        background: url(../images/camping-forest-img-sm.png) no-repeat center center fixed;
-        width: 100%;
-        height: fit-content;
-        background-size: cover;
-    }
-
-    .header-ribbon-wrap {
-        justify-content: center;
-        font-size: var(--xxsmall-font-size);
-    }
-
-    .header-ribbon-secondary {
-        display: none;
-    }
-
-    /* Navbar */
-    .nav-list {
-        position: fixed;
-        top: 2.18rem;
-        left: 0;
-        background-color: var(--ribbon-color);
-        width: 100%;
-        height: fit-content;
-        box-shadow: 0 1px 1rem var(--box-shadow);
-        padding-block: 1.25rem 2rem;
-        display: flex;
-        flex-direction: column;
-        row-gap: 2.5rem;
-        transition: top .4s;
-        z-index: var(--z-fixed);
-    }
-
-    .navbar-close {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 30px;
-        height: 30px;
-        z-index: var(--z-cross);
-    }
-
-    .navbar-toggle {
-        display: block;
-        position: absolute;
-        left: 20px;
-        top: 50px;
-    }
-
-    .navbar-toggle img {
-        width: 100%;
-        height: 100%;
-    }
-
-    /* Home */
-
-    /*Hero Banner*/
-
-    .banner-content {
-        padding: 5rem 1.25rem 5.75rem 1.25rem;
-    }
-
-    .hero-subheading {
-        justify-content: center;
-        font-size: var(--xsmall-font-size);
-        letter-spacing: 1.13px;
-        text-transform: uppercase;
-    }
-
-    .hero-heading {
-        font-family: var(--mr_alex-font);
-        line-height: 1;
-        margin: 9px 0 36px;
-    }
-
-    /* Slider */
-    .adventure-carousel {
-        margin-top: 1.25rem;
-        margin-bottom: 2rem;
-    }
-
-    /* Discover */
-    .img-sm {
-        display: block;
-    }
-
-    /* Discovery */
-    .discover-info {
-        padding: 3.75rem 1.25rem;
-    }
-
-    .discover-subheading {
-        font-size: var(--xsmall-font-size);
-        letter-spacing: 1.08px;
-        margin-bottom: 1rem;
-    }
-
-    .discover-paragraph {
-        font-size: var(--normal-font-size);
-        margin-bottom: 1rem;
-    }
-
-    .discover-heading {
-        font-size: var(--hero-font-size);
-        margin-bottom: 1rem;
-    }
-
-    /* Ticket */
-    .ticket-img-carousel {
-        position: relative;
-    }
-
-    #tickets {
-        padding-top: 4rem;
-    }
-
-    .ticket-arrows {
-        width: 100%;
-        position: absolute;
-        top: calc(50%);
-    }
-
-    .left-arrow,
-    .right-arrow {
-        background-color: var(--ribbon-color);
-        width: 2.75rem;
-        height: 2.75rem;
-    }
-
-    .left-arrow img,
-    .right-arrow img {
-        margin: 9px auto;
-    }
-
-    .ticket-info {
-        border-bottom: 0.5rem solid var(--border-color);
-    }
-
-    /* Access Tool */
-    .box-white {
-        width: 100%;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 62px;
-    }
-
-    .box-white:first-child {
-        display: none;
-    }
-
-    .box-white .title {
-        text-align: center;
-    }
-
-    .img-cta-wrapper {
-        position: static;
-    }
-
-    /*tools-resources*/
-
-    #tools-resources .flex-container {
-        flex-wrap: wrap;
-        gap: 0;
-    }
-
-    #tools-resources .img-wrapper {
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 20px;
-        width: 100%;
-    }
-
-    .sector-heading-mobile {
-        display: none;
-    }
-
-    .align-center-sm {
-        text-align: center !important;
-    }
-
-    .footer-container {
-        margin-top: 2rem;
-    }
+  #white-boxes {
+    margin: 6rem 1rem 0;
+  }
+  #white-boxes .upper-heading {
+    text-align: center !important;
+  }
+  #white-boxes .sector-heading {
+    text-align: center !important;
+  }
+  #white-boxes .sector-paragraph {
+    text-align: center !important;
+  }
+  .text-align-center-sm {
+    text-align: center !important;
+  }
+  #forest-banner {
+    background: url(../images/camping-forest-img-sm.png) no-repeat center center fixed;
+    width: 100%;
+    height: fit-content;
+    background-size: cover;
+  }
+  .header-ribbon-wrap {
+    justify-content: center;
+    font-size: var(--xxsmall-font-size);
+  }
+  .header-ribbon-secondary {
+    display: none;
+  }
+  .nav-list {
+    position: fixed;
+    top: 2.18rem;
+    left: 0;
+    background-color: var(--ribbon-color);
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 1px 1rem var(--box-shadow);
+    padding-block: 1.25rem 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    transition: top 0.4s;
+    z-index: var(--z-fixed);
+  }
+  .navbar-close {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    z-index: var(--z-cross);
+  }
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 50px;
+  }
+  .navbar-toggle img {
+    width: 100%;
+    height: 100%;
+  }
+  .banner-content {
+    padding: 5rem 1.25rem 5.75rem 1.25rem;
+  }
+  .hero-subheading {
+    justify-content: center;
+    font-size: var(--xsmall-font-size);
+    letter-spacing: 1.13px;
+    text-transform: uppercase;
+  }
+  .hero-heading {
+    font-family: var(--mr_alex-font);
+    line-height: 1;
+    margin: 9px 0 36px;
+  }
+  .adventure-carousel {
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  .img-sm {
+    display: block;
+  }
+  .discover-info {
+    padding: 3.75rem 1.25rem;
+  }
+  .discover-subheading {
+    font-size: var(--xsmall-font-size);
+    letter-spacing: 1.08px;
+    margin-bottom: 1rem;
+  }
+  .discover-paragraph {
+    font-size: var(--normal-font-size);
+    margin-bottom: 1rem;
+  }
+  .discover-heading {
+    font-size: var(--hero-font-size);
+    margin-bottom: 1rem;
+  }
+  .ticket-img-carousel {
+    position: relative;
+  }
+  #tickets {
+    padding-top: 4rem;
+  }
+  .ticket-arrows {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+  }
+  .left-arrow {
+    background-color: var(--ribbon-color);
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+  .left-arrow img {
+    margin: 9px auto;
+  }
+  .right-arrow {
+    background-color: var(--ribbon-color);
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+  .right-arrow img {
+    margin: 9px auto;
+  }
+  .ticket-info {
+    border-bottom: 0.5rem solid var(--border-color);
+  }
+  .box-white {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 62px;
+  }
+  .box-white:first-child {
+    display: none;
+  }
+  .box-white .title {
+    text-align: center;
+  }
+  .img-cta-wrapper {
+    position: static;
+  }
+  #tools-resources .flex-container {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  #tools-resources .img-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .sector-heading-mobile {
+    display: none;
+  }
+  .align-center-sm {
+    text-align: center !important;
+  }
+  .footer-container {
+    margin-top: 2rem;
+  }
 }
+
+/*# sourceMappingURL=responsive-small.css.map */
