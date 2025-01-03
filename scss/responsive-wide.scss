@@ -1,0 +1,23 @@
+
+/* Extra Large Screen */
+@media only screen and (min-width: 1441px) {
+  .nav-list {
+    &:before {
+      width: 470px;
+      right: 10%;
+    }
+    &:after {
+      width: 470px;
+      left: 10%;
+    }
+  }
+  .splide__arrow--prev {
+    left: -3rem;
+  }
+  .splide__arrow--next {
+    right: -3rem;
+  }
+  .discover-info {
+    padding: 3.75rem calc(16%);
+  }
+}

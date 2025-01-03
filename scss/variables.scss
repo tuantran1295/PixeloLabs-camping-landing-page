@@ -1,0 +1,32 @@
+
+/* Variables CSS */
+&:root {
+  --header-height: 4.3rem;
+  --ribbon-color: hsl(154, 77%, 31%);
+  --text-color: hsl(138, 80%, 12%);
+  --white-color: hsl(0, 0%, 100%);
+  --white-color-half-opacity: rgba(255, 255, 255, .5);
+  --body-color: hsla(154, 77%, 31%, 0.8);
+  --box-shadow: hsla(210, 55%, 24%, .1);
+  --border-color: hsl(51, 75%, 58%);
+  --inter-bold-font: "Inter-Bold", sans-serif;
+  --mr_alex-font: "MrAlex", serif;
+  --mr_alexbold-font: "mr_alexbold", serif;
+  --heebo_regular-font: "Heebo-Regular", sans-serif;
+  --heebo_bold-font: "Heebo-Regular_Bold", sans-serif;
+  --upper-heading-size: 0.813rem;
+  --section-heading-size: 3.125rem;
+  --paragraph-size: 1.125rem;
+  --big-font-size: 5.625rem;
+  --medium-font-size: 3.125rem;
+  --hero-font-size: 4.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: .813rem;
+  --xsmall-font-size: .75rem;
+  --xxsmall-font-size: .5rem;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --z-fixed: 100;
+  --z-cross: 1000;
+}

@@ -1,0 +1,173 @@
+$color_1: var(--white-color);
+$color_2: var(--white-color-half-opacity);
+$font-family_1: Inter, sans-serif;
+$background-color_1: #000;
+$background-color_2: #fff;
+
+/* Medium Screen */
+/* Header Ribbion */
+/* Navbar */
+/* Discover */
+/*!* Ticket *!*/
+/* Access Tool */
+@media only screen and (min-width: 769px) {
+  #forest-banner {
+    background: url(../images/camping-forest-img-wide.png) no-repeat center center fixed;
+    height: fit-content;
+    background-size: cover;
+  }
+  .header-ribbon {
+    padding: 0 3rem;
+  }
+  .header-ribbon-secondary {
+    display: flex;
+  }
+  .nav {
+    background-color: $background-color_1;
+    opacity: 0.5;
+  }
+  .navbar-menu {
+    width: 100%;
+    padding: 0 8.43rem;
+  }
+  .nav-list {
+    display: flex !important;
+  }
+  .navbar-toggle {
+    display: none;
+  }
+  .banner-content {
+    padding: 15.3125rem 8.75rem 15.31rem;
+  }
+  .hero-subheading {
+    justify-content: flex-start;
+    font-size: var(--normal-font-size);
+    letter-spacing: 1.13px;
+  }
+  .hero-heading {
+    font-size: var(--medium-font-size);
+    text-align: start;
+    padding: .5rem 0 2.5rem 0;
+    width: 50%;
+  }
+  .img-sm {
+    display: none;
+  }
+  .img-lg {
+    display: block;
+    padding: 3rem;
+    height: 48rem;
+  }
+  #explore {
+    position: relative;
+    .sector-heading-mobile {
+      display: none;
+    }
+  }
+  .discover-img {
+    height: 40rem;
+  }
+  .discover-info {
+    width: 60%;
+    padding: 3.75rem calc(6%);
+    position: absolute;
+    top: -14px;
+    left: calc(20%);
+    opacity: 0.8;
+    border-bottom: 0.5rem solid var(--border-color);
+  }
+  .discover-subheading {
+    font-size: var(--upper-heading-size);
+    margin-bottom: 1rem;
+  }
+  .discover-paragraph {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .discover-heading {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  #tickets {
+    padding: 4rem 0 15rem;
+    position: relative;
+    width: 100%;
+    height: 30.43rem;
+    margin: 6rem 0 18rem;
+  }
+  .ticket-img {
+    .img-md {
+      padding: 0;
+    }
+  }
+  .ticket-img-carousel {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .ticket-info {
+    width: calc(70%);
+    position: absolute;
+    top: calc(25%);
+    left: 0;
+    opacity: 0.9;
+    border-bottom: 0;
+    border-right: 0.5rem solid var(--border-color);
+  }
+  .splide__arrow {
+    background: none !important;
+  }
+  .splide__arrow--prev {
+    left: -2rem;
+  }
+  .splide__arrow--next {
+    right: -2rem;
+  }
+  #white-boxes {
+    padding: 0 3rem 0;
+  }
+  .box-white {
+    padding-bottom: 20px;
+  }
+  .hidden-wide-screen {
+    display: none;
+  }
+  .sector-heading-mobile {
+    display: none;
+  }
+  .footer-content {
+    padding: 81px 81px 0 81px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .footer-menu-header {
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.08px;
+    margin-bottom: 17px;
+    color: $color_1;
+  }
+  .sub-content {
+    font-family: $font-family_1;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: $color_2;
+  }
+  form.subscription-form {
+    margin-bottom: 102px;
+    text-align: right;
+    position: relative;
+    &:after {
+      content: '';
+      width: 500px;
+      height: 1px;
+      background-color: $background-color_2;
+      position: absolute;
+      bottom: -45px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
