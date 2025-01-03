@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "sass --watch scss/variables.scss:css/variables.css scss/style.scss:css/style.css scss/responsive-medium.scss:css/responsive-medium.css scss/responsive-small.scss:css/responsive-small.css scss/responsive-ultra-small.scss:css/responsive-ultra-small.css scss/responsive-wide.scss:css/responsive-wide.css"
+    "build-css": "sass scss/variables.scss:css/variables.css scss/style.scss:css/style.css scss/responsive-medium.scss:css/responsive-medium.css scss/responsive-small.scss:css/responsive-small.css scss/responsive-ultra-small.scss:css/responsive-ultra-small.css scss/responsive-wide.scss:css/responsive-wide.css"
   },
   "repository": {
     "type": "git",
